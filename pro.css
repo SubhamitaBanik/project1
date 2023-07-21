@@ -1,0 +1,86 @@
+/* Profile-Styling Page css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.user-pic{
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 2px;
+    border: 2px solid white;
+    background: rgb(216, 175, 134);
+}
+.sub-menu-wrap{
+    z-index: 999;
+  position: absolute;
+  top: 100%;
+  width: 320px;
+  right: 10%;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: rgb(216, 175, 134);
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0px;
+    height: 2px;
+    width: 100%;
+    background: black;
+    margin: 15px 0 10px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+    margin-top: 15px;
+}
+.sub-menu-link img{
+    width: 40px;
+    background:#e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.sub-menu-link span{
+    transition: transform 0.5s;
+    font-size: 22px;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+    scale: 1.2;
+    color: black;
+}
+.sub-menu-link:hover p{
+    font-weight: 800;
+    color: black;
+}

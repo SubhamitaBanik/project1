@@ -1,0 +1,410 @@
+<!-- Main Website Code Home Page  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style D.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#999999 ;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img class="logo " src="NEWSWAVE Logo - Original - 5000x5000.png" alt="Company Logo">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="link" href="https://edition.cnn.com/sport" target="_blank">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="https://www.financialexpress.com/" target="_blank">Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link " href="https://economictimes.indiatimes.com/news/politics" target="_blank">Politics</a>
+                        </li>
+                    </ul>
+                    <div class="search-box">
+                        <input class="search-txt" type="search" placeholder="Type to Search">
+                        <a href="#" class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </a>
+                    </div>
+                    <img src="images/profile.png" class="user-pic" onclick="toggleMenu()">
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <div class="sub-menu">
+                            <div class="user-info">
+                                <img src="images/profile.png">
+                                <h3>Hello ~ User</h3>
+                            </div>
+                            <hr>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/profile.png">
+                                <p>Edit Profile</p>
+                                <span>></span>
+                            </a>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/setting.png">
+                                <p>Settings & Privacy</p>
+                                <span>></span>
+                            </a>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/help.png">
+                                <p>Help & Support</p>
+                                <span>></span>
+                            </a>
+                            <a href="Sign_Up.html" class="sub-menu-link">
+                                <img src="images/Sign_Up.png">
+                                <p>Sign Up</p>
+                                <span>></span>
+                            </a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Subscribe Now
+                    </button>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Join Our Community</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Get Latest Updates !!!!!</p>
+                                    <p>Subscribe us for just Rs.299/- per month</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pay
+                                        Rs.299/-</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/Xmm3Kr5P1Uw?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/PKwLsAu-z10?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div></main>
+        <main>
+            <section>
+                <h1 class="breaking">BREAKING NEWS</h1>
+                <div id="content">
+                    <div class="row row-cols-1 row-cols-md-2 g-3" style="gap: 10px;">
+                        <div class="col">
+                            <div class="card news">
+                                <img src="delhi-rains-pti_625x300_1530082912126.webp" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">But Met spies drier days in Kolkata for now</h5>
+                                    <p class="news-sub-title">
+                                        Weather Report, 19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">The city will get only light to moderate and scattered rain for now. The Met said...
+                                        <br>
+                                        <a class="news-foot"
+                                            href="http://timesofindia.indiatimes.com/articleshow/101898493.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="14673344-0-image-a-4_1560307795721.jpg" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">Another snake death in New Town</h5>
+                                    <p class="news-sub-title">
+                                        Breaking, 19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">A 27-year-old youth died of snakebite in New Town on Sunday evening, close to the very...
+                                        <br>
+                                        <a class="news-foot"
+                                            href="http://timesofindia.indiatimes.com/articleshow/101898493.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="g-d-birla-school.jpg" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">After 2006, one more Kol college turns co-ed</h5>
+                                    <p class="news-sub-title">
+                                        Kolkata Colleges, 19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">G.D Birla Institute, 61 years after it was formed, is set to join the club of co-educational colleges in Kolkata. This is the first time since... 
+                                        <br>
+                                        <a class="news-foot"
+                                            href="https://timesofindia.indiatimes.com/city/kolkata/after-2006-one-more-kol-college-turns-co-ed/articleshow/101898758.cms?from=mdr" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="MAnipur.jpg" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">Outrage in India over video of Manipur women paraded naked, raped</h5>
+                                    <p class="news-sub-title">
+                                        Manipur Sexual Assault Case, 19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">Incident happened on May 4, A viral video from the Indian state of Manipur...
+                                        <br>
+                                        <a class="news-foot"
+                                            href="https://www.aljazeera.com/news/2023/7/20/outrage-in-india-over-video-of-manipur-women-paraded-naked-raped" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="ch-3.webp" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">Isro aces 4th orbit raising maneuver, spacecraft one step closer to Moon</h5>
+                                    <p class="news-sub-title">
+                                        Chandrayaan-3 Updates, 19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">The Indian Space Research Organisation (Isro) has successfully executed the fourth....
+                                        <br>
+                                        <a class="news-foot"
+                                            href="https://www.indiatoday.in/science/chandrayaan-3/story/chandrayaan-3-one-step-closer-to-moon-as-isro-aces-4th-orbit-raising-maneuver-2409329-2023-07-20" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="7llpbvu8_dwfe_625x300_20_July_23.webp" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h5 class="card-title news-title">2nd Test Day 1: Rahane Departs, India Bank On Kohli vs West Indies</h5>
+                                    <p class="news-sub-title">
+                                        India vs West Indies Live Score, 19/07/2023
+                                      </p>Virat Kohli has taken the slow and steady approach for India's rebuild. Rohit Sharma scored a brilliant... 
+                                      <br>
+                                      <a class="news-foot"
+                                          href="https://sports.ndtv.com/west-indies-vs-india-2023/ind-vs-wi-live-score-2nd-test-day-1-india-vs-west-indies-live-cricket-scorecard-4225877#pfrom=home-ndtv_topstories" target="_blank">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+        </main>
+        <main>
+            <section>
+                <h2 id="D" class="breaking" style="margin-bottom: 0rem;" >E-NEWSPAPERS!</h2>
+                <div id="contentz">
+                    <div class="row row-cols-1 row-cols-md-2 g-3" id="rord"  style="gap: 10px;">
+                        <div class="col">
+                            <div class="card news">
+                                <img src="Subhamita\70687338.webp" width="100" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h4 class="card-title news-title">The Times Of India</h4>
+                                    <p class="news-sub-title">
+                                        19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">
+                                        <a class="news-foot"
+                                            href="https://epaper.timesgroup.com/the-times-of-india/kolkata" target="_blank">Explore</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="Subhamita\anandabazar-patrika-epaper-3-july-2020-3715.webp" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h4 class="card-title news-title">আনন্দবাজার পত্রিকা</h4>
+                                    <p class="news-sub-title">
+                                        19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">
+                                        
+                                        <a class="news-foot"
+                                            href="https://epaper.anandabazar.com/" target="_blank">Explore</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="Subhamita\Jagran Img.png" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h4 class="card-title news-title">जागरण</h4>
+                                    <p class="news-sub-title">
+                                    19/07/2023
+                                      </p>
+                                    <p class="card-text news-info">
+                                        <a class="news-foot"
+                                            href="https://epaper.jagran.com/epaper/" target="_blank">Explore</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>   
+                </div>
+            </section>
+        </main>
+        <main>
+            <section>
+                <h2 id="D" class="breaking" style="margin-bottom: 0rem;" >LIVE NEWS DIRECTLY FROM THE HOUSE</h2>
+                <div id="contents">
+                    <div class="row row-cols-1 row-cols-md-2 g-3" id="rord"  style="gap: 10px;">
+                        <div class="col">
+                            <div class="card news">
+                                <img src="1200x600wa.png" width="100" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h4 class="card-title news-title">India TV Live</h4>
+                                    <p class="news-sub-title">
+                                        LIVE NEWS CHANNELS
+                                      </p>
+                                    <p class="card-text news-info">
+                                        <a class="news-foot"
+                                            href="https://www.youtube.com/embed/Xmm3Kr5P1Uw" target="_blank">Watch LIVE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="ncs_ajam-title-cards_10.jpg" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h4 class="card-title news-title">Al Jezeera Live</h4>
+                                    <p class="news-sub-title">
+                                        LIVE NEWS CHANNELS
+                                      </p>
+                                    <p class="card-text news-info">
+                                        
+                                        <a class="news-foot"
+                                            href="https://www.youtube.com/embed/gCNeDWCI0vo" target="_blank">Watch LIVE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card news">
+                                <img src="abp_bengali.jpg" class="card-img-top news-img" alt="..." >
+                                <div class="card-body news-body">
+                                    <h3 class="card-title news-title">ABP Ananda Live</h3>
+                                    <p class="news-sub-title">
+                                       LIVE NEWS CHANNELS
+                                      </p>
+                                    <p class="card-text news-info">
+                                        <a class="news-foot"
+                                            href="https://www.youtube.com/embed/PKwLsAu-z10" target="_blank">WaWatch LIVE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>   
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <pre class="company_name"><img src="NEWSWAVE Logo - Original - 5000x5000.png" class="Logo" > NEWS~WAVE</pre>
+                    <p>
+                        Welcome to NEWS~WAVE, the ultimate destination for staying informed on the latest happenings across the world! Developed by D.A.S. Coders, our innovative news website is designed to be your one-stop-shop for diverse and up-to-the-minute news updates. Our mission is to simplify your news consumption by aggregating a wide array of news articles from various sources and presenting them in one easily accessible platform.
+                        <br>
+
+                        Join us on this news-waving journey, and let's stay informed together!
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 id="dev">Webpage Design Credits:<div class="underline"></div></h4>
+                    <pre class="rel"><img src="Dhiman.jpg" >  DHIMAN  MAJUMDER</pre>
+                    <pre class="rel"><img src="Abhranil.jpg" class="us">  ABHRANIL  BANERJEE</pre>
+                    <pre class="rel"><img src="subhamita.jpg" class="us">  SUBHAMITA  BANIK</pre>
+                   </div>
+               <div class="col">
+                <h4 class="re">CONTACT US : <div class="underline"></div></h4>
+                <form>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                </form>
+                <h4 class="re">
+                    Directly connect with us on :
+                </h4>
+                <div class="social-icons">
+                    <a href="mailto:d.a.s5coders7news.wave2023@gmail.com" target="_blank"><i class="welcom fa-solid fa-envelope fa-2xl"></i></a>
+                    <a href="https://www.facebook.com/facebook/" target="_blank"><i class="welcom fa-brands fa-square-facebook fa-2xl"></i></a>
+                   <a href="https://www.instagram.com/" target="_blank"> <i class="welcom fa-brands fa-instagram  fa-2xl"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="welcom fa-brands fa-youtube  fa-2xl"></i></a>
+                    <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="welcom fa-brands fa-linkedin  fa-2xl"></i></a>
+                </div>
+               </div> 
+            </div>
+           <div class="footer1">
+            <i class="fa-solid fa-gem fa-flip fa-2xl diamond"></i>
+            <h2 class="copyright"> Developed by D.A.S. Coders</h2>
+            <i class="fa-solid fa-gem fa-flip fa-2xl diamond"></i>
+        </div>
+        </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+        <script>
+            let subMenu = document.getElementById("subMenu");
+            function toggleMenu(){
+              subMenu.classList.toggle("open-menu");
+            }
+        </script>
+        
+</body>
+</html>
